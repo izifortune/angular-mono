@@ -2,7 +2,9 @@
   "name": "second",
   "version": "0.1.0",
   "scripts": {
-    "build": "ng build second"
+    "build": "ng build second",
+    "prepublishOnly": "mv dist/second/* dist/",
+    "postpublish": "rm -rf dist/"
   },
   "peerDependencies": {
     "@angular/common": "^8.2.4",

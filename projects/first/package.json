@@ -2,7 +2,9 @@
   "name": "first",
   "version": "0.1.0",
   "scripts": {
-    "build": "ng build first"
+    "build": "ng build first",
+    "prepublishOnly": "mv dist/first/* dist/",
+    "postpublish": "rm -rf dist/"
   },
   "peerDependencies": {
     "@angular/common": "^8.2.4",
