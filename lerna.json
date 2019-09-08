@@ -2,5 +2,10 @@
   "packages": [
     "projects/*"
   ],
-  "version": "independent"
+  "version": "independent",
+  "command": {
+    "publish": {
+      "conventionalCommits": true
+    }
+  }
 }
