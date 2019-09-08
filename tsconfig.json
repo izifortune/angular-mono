@@ -17,7 +17,21 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "first": [
+        "dist/first"
+      ],
+      "first/*": [
+        "dist/first/*"
+      ],
+      "second": [
+        "dist/second"
+      ],
+      "second/*": [
+        "dist/second/*"
+      ]
+    }
   },
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,

@@ -25,13 +25,15 @@
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "~0.803.1",
+    "@angular-devkit/build-ng-packagr": "~0.803.3",
     "@angular/cli": "~8.3.1",
     "@angular/compiler-cli": "~8.2.3",
     "@angular/language-service": "~8.2.3",
-    "@types/node": "~8.9.4",
     "@types/jasmine": "~3.3.8",
     "@types/jasminewd2": "~2.0.3",
+    "@types/node": "~8.9.4",
     "codelyzer": "^5.0.0",
+    "cz-lerna-changelog": "^2.0.2",
     "jasmine-core": "~3.4.0",
     "jasmine-spec-reporter": "~4.2.1",
     "karma": "~4.1.0",
@@ -39,9 +41,18 @@
     "karma-coverage-istanbul-reporter": "~2.0.1",
     "karma-jasmine": "~2.0.1",
     "karma-jasmine-html-reporter": "^1.4.0",
+    "lerna": "^3.16.4",
+    "ng-packagr": "^5.4.0",
     "protractor": "~5.4.0",
+    "semantic-release": "^15.13.24",
     "ts-node": "~7.0.0",
+    "tsickle": "^0.37.0",
     "tslint": "~5.15.0",
     "typescript": "~3.5.3"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-lerna-changelog"
+    }
   }
 }

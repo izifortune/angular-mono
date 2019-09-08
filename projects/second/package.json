@@ -1,0 +1,11 @@
+{
+  "name": "second",
+  "version": "0.0.1",
+  "scripts": {
+    "build": "ng build second"
+  },
+  "peerDependencies": {
+    "@angular/common": "^8.2.4",
+    "@angular/core": "^8.2.4"
+  }
+}

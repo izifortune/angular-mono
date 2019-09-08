@@ -1,0 +1,6 @@
+{
+  "packages": [
+    "projects/*"
+  ],
+  "version": "independent"
+}
