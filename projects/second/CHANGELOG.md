@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.2](https://github.com/izifortune/angular-mono/compare/second@0.2.1...second@0.2.2) (2019-09-15)
+
+
+### Bug Fixes
+
+* **test:** testing a new change ([d20190c](https://github.com/izifortune/angular-mono/commit/d20190c))
+
+
+
+
+
 ## [0.2.1](https://github.com/izifortune/angular-mono/compare/second@0.2.0...second@0.2.1) (2019-09-15)
 
 
