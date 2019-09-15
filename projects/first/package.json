@@ -1,6 +1,6 @@
 {
   "name": "first",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "scripts": {
     "build": "ng build first",
     "postpublish": "rm -rf dist/"
