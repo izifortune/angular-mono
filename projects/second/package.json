@@ -3,7 +3,6 @@
   "version": "0.2.0",
   "scripts": {
     "build": "ng build second",
-    "prepublishOnly": "mv dist/second/* dist/",
     "postpublish": "rm -rf dist/"
   },
   "peerDependencies": {
