@@ -14,6 +14,7 @@ export class FirstComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+    console.log('init first compontent')
   }
 
 }
