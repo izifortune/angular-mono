@@ -20,16 +20,22 @@
     ],
     "paths": {
       "first": [
-        "dist/first"
+        "projects/first/dist"
       ],
       "first/*": [
-        "dist/first/*"
+        "projects/first/dist/*"
       ],
       "second": [
-        "dist/second"
+        "projects/second/dist"
       ],
       "second/*": [
-        "dist/second/*"
+        "projects/second/dist/*"
+      ],
+      "linked": [
+        "projects/linked/dist"
+      ],
+      "linked/*": [
+        "projects/linked/dist/*"
       ]
     }
   },
